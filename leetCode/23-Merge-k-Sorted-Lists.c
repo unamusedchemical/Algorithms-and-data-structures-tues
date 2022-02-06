@@ -4,8 +4,6 @@
      struct ListNode *next;
  };
 
-
-
 struct ListNode *mergeLists(struct ListNode *a, struct ListNode *b) {
     
     
