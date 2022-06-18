@@ -71,9 +71,12 @@ public:
         return true;
     }
 
-    // void delete() {
+    void deleteWord(const std::string& word) {
+        // Trie* tmp = this;
+        // const uint length = word.size();
 
-    // }
+        // tmp->isEnd = false;
+    }
 
     friend std::ostream& operator<<(std::ostream& os, const Trie& other) {
         other.displayCharacters(os, "");
